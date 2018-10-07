@@ -8,6 +8,6 @@
 
 #### 1、测试发送 Direct、Fanout、Topic 类型的消息
 #### 2、测试接收 消息
-#### 3、修改默认的序列化规则，切换至 Jack2JsonSerializer
+#### 3、修改默认的序列化规则，切换至 Jackson2JsonMessageConverter
 #### 待补充和完善……
 
