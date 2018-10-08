@@ -29,6 +29,8 @@ public class RabbitTemplateTests {
 
         rabbitTemplate.convertAndSend("exchange.direct", "atguigu.news", new Book("水浒传", "施耐庵"));
 
+        rabbitTemplate.convertAndSend("exchange.direct", "atguigu.news", new Book("西游记", "吴承恩"));
+
     }
 
     /**
